@@ -1,5 +1,5 @@
 /* universal code */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,12 +7,14 @@
     text-decoration: none;
     font-family: "Inter", sans-serif;
 }
+
 /* common code satrt */
-.container{
+.container {
     width: 90%;
     margin: 0 auto;
 }
-.common-btn-1{
+
+.common-btn-1 {
     color: white;
     background-color: #1D4ED8;
     font-size: 16px;
@@ -22,8 +24,8 @@
     cursor: pointer;
     border: none;
 }
-.common-btn-2{
 
+.common-btn-2 {
     color: white;
     background-color: #1D4ED8;
     font-size: 20px;
@@ -33,59 +35,236 @@
     cursor: pointer;
     border: none;
 }
+
+.common-btn-3 {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+    font-size: 16px;
+    padding: 08px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 /* common code end */
 
 /* header section start */
-header{
+header {
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
-nav ul li a{
+
+nav ul li a {
     color: #575757;
     font-size: 16px;
 }
+
 /* header section end */
 
 /* hero section start */
-.hero-section{
-    background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("../img/banner.jpg");
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/banner.jpg");
     /* background-image: url(../img/banner.jpg); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 700px;
 }
-.hero-section{
+
+.hero-section {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.hero-content h1{
+
+.hero-content h1 {
     color: #FFFFFF;
     font-size: 80px;
     font-weight: bold;
 }
-.hero-content-p{
+
+.hero-content-p {
     width: 750px;
     margin: 0 auto;
     padding: 40px;
 }
-.hero-content-p p{
+
+.hero-content-p p {
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 400;
     width: 0 10px;
     margin-bottom: 250px;
 }
+
 /* hero section end */
+
+/* hero section end */
+.speaker-section {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.speaker-section h2 {
+    color: #000102;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 50px auto;
+}
+
+.speaker-parent {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.speaker {
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    flex: 1;
+}
+
+.speaker img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+.speaker h3 {
+    color: #2563EB;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 10px 0;
+}
+
+.speaker h1 {
+    color: #0D1B2A;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 10px 0;
+}
+
+.speaker p {
+    color: #575757;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 10px 0 30px 0;
+}
+
+/* hero section end */
+
+/* pricing section start */
+.pricing-section {
+    text-align: center;
+}
+
+.pricing-section {
+    text-align: center;
+}
+
+.pricing-section h2 {
+    color: #000102;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.pricing-section h4 {
+    color: #575757;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 30px auto;
+}
+
+.pricing-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.card {
+    border: 2px solid #E5E7EB;
+    text-align: start;
+    padding: 20px 50px;
+    flex: 1;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.card h3 {
+    color: #9E9E9E;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.card h1 {
+    color: #0D1B2A;
+    font-size: 44px;
+}
+
+.card p {
+    color: #979797;
+    padding: 20px 0;
+}
+
+.card ul {
+    padding: 30px 0;
+}
+
+.card li {
+    color: #4C4C4C;
+    list-style: disc;
+    padding: 10px;
+}
+
+.card-2 {
+    background-color: #0D1A29;
+    border: 2px solid #E5E7EB;
+    text-align: start;
+    padding: 20px 50px;
+    flex: 1;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.card-2 h3 {
+    color: #93C5FD;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.card-2 h1 {
+    color: #ffff;
+    font-size: 44px;
+}
+
+.card-2 p {
+    color: #868D95;
+    padding: 20px 0;
+}
+
+.card-2 ul {
+    padding: 20px 0;
+}
+
+.card-2 li {
+    color: #CFD1D4;
+    list-style: disc;
+    padding: 10px;
+}
+
+/* pricing section end */
