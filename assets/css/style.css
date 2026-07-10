@@ -169,11 +169,6 @@ nav ul li a {
 .pricing-section {
     text-align: center;
 }
-
-.pricing-section {
-    text-align: center;
-}
-
 .pricing-section h2 {
     color: #000102;
     font-size: 48px;
@@ -264,3 +259,44 @@ nav ul li a {
     padding: 10px;
 }
 /* pricing section end */
+
+/* why attend section start */
+.attend-section{
+    text-align: center;
+    background-color: #F2F3FD;
+    margin-top: 50px;
+}
+.attend-section .attend-title{
+    padding: 60px;
+}
+
+.attend-section h2 {
+    color: #000102;
+    font-size: 48px;
+    font-weight: bold;
+}
+.attend-box-parent{
+    background-color: #F2F3FD;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.box{
+    flex: 1;
+    padding: 20px;
+    border-right: 2px solid #E5E7EB;
+}
+.box img{
+   border-radius: 50%;
+}
+.box h3{
+    font-size: 22px;
+    padding: 50px 0 10px 0;
+
+}
+.box p{
+    color: #979797;
+    font-size: 16px;
+    padding: 10px;
+}
+/* why attend section end */
