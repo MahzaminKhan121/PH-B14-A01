@@ -69,6 +69,7 @@ nav ul li a {
     color: #575757;
     font-size: 16px;
 }
+
 /* header section end */
 
 /* hero section start */
@@ -108,6 +109,7 @@ nav ul li a {
     width: 0 10px;
     margin-bottom: 250px;
 }
+
 /* hero section end */
 
 /* hero section end */
@@ -163,12 +165,14 @@ nav ul li a {
     line-height: 21px;
     padding: 10px 0 30px 0;
 }
+
 /* hero section end */
 
 /* pricing section start */
 .pricing-section {
     text-align: center;
 }
+
 .pricing-section h2 {
     color: #000102;
     font-size: 48px;
@@ -258,15 +262,20 @@ nav ul li a {
     list-style: disc;
     padding: 10px;
 }
+
 /* pricing section end */
 
+/* challage part start here */
 /* why attend section start */
-.attend-section{
+
+/* why attend code start */
+.attend-section {
     text-align: center;
     background-color: #F2F3FD;
     margin-top: 50px;
 }
-.attend-section .attend-title{
+
+.attend-section .attend-title {
     padding: 60px;
 }
 
@@ -275,28 +284,209 @@ nav ul li a {
     font-size: 48px;
     font-weight: bold;
 }
-.attend-box-parent{
+
+.attend-box-parent {
     background-color: #F2F3FD;
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-.box{
+
+.box {
     flex: 1;
     padding: 20px;
     border-right: 2px solid #E5E7EB;
 }
-.box img{
-   border-radius: 50%;
+
+.box img {
+    border-radius: 50%;
 }
-.box h3{
+
+.box h3 {
     font-size: 22px;
     padding: 50px 0 10px 0;
 
 }
-.box p{
+
+.box p {
     color: #979797;
     font-size: 16px;
     padding: 10px;
 }
+
+/* why attend code end */
+
+/* palceholder code start */
+.reserve {
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.reserve-parent {
+    display: flex;
+    margin: auto;
+    gap: 50px;
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+}
+
+.reserve-left,
+.reserve-right {
+    flex: 1;
+}
+
+.reserve-left h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.reserve-right h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    color: #222;
+}
+
+.reserve-left h2 span {
+    color: #5b4bff;
+}
+
+.reserve-right h2 span {
+    color: #5b4bff;
+}
+
+.reserve-left p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.reserve-right p {
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.reserve-card {
+    flex: 1;
+    background: #f4f5ff;
+    padding: 25px 15px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.reserve-card h3 {
+    color: #5b4bff;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.reserve-card p {
+    margin: 0;
+    color: #666;
+}
+
+.early-bird {
+    background: #eef0ff;
+    color: #5b4bff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.input-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.input-group div {
+    text-align: start;
+}
+
+.input-group input,
+.track {
+    background-color: #F4F5FF;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.track {
+    margin-bottom: 25px;
+}
+
+/* palceholder code end */
 /* why attend section end */
+
+/* challage part end here */
+
+/* footer section start  */
+.footer {
+    background: #fff;
+    padding: 0px 0 20px;
+    margin: 40px 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    /* width: 150px;
+    display: block; */
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.footer-social h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #111827;
+    margin-right: 5px;
+}
+
+.footer-social a {
+    color: #111827;
+    font-size: 20px;
+}
+.footer-social a {
+    color: #1D4ED8;
+    font-size: 30px;
+}
+
+.footer hr {
+    border: none;
+    height: 1px;
+    background: #c5c1c1;
+    margin: 30px 0;
+}
+
+.copyright {
+    text-align: center;
+    color: #6b7280;
+    font-size: 16px;
+}
+/* footer section end */
