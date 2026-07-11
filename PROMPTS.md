@@ -1,1 +1,3 @@
-Create a modern "Reserve Your Spot" section for a DevConf 2026 landing page. The design should match the existing website style and include two columns. The left column should show conference statistics (developers, speakers, days, and experience), and the right column should contain a registration form with a "Register Now" button. Use a clean, professional design that fits the conference theme.
+Create a modern "Placeholeder" section for a DevConf 2026 landing page.
+The section should include a heading, a short description, icons, and a clean layout.
+The design should match the existing website style and include two columns. The left column should show conference statistics and the right column should contain a registration form with a "Register Now" button. Use a clean, professional design that fits the conference theme.
